@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофе-склад</title>
+
+    <meta name="description" content="Кофе-скдад - это сеть кафе и магазинов чая и кофе">
+    <meta name="keywords" content="Кофе, чай, кафе, кофе-склад, вкусно">
+    
+    <!-- Подключение "нормального" отображения в разных браузерах -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <!-- Подключение грид сетки -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.min.css">
+    <!-- Основной CSS файл -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <!-- Подключение шрифта проекта -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <!-- Брейкпоинты -->
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+<!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img class="logo" src="resources/img/logo-white.png" alt="Кофе-склад лого">
+                <img class="logo-black" src="resources/img/logo.png" alt="Кофе-склад лого">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">О нас</a></li>
+                    <li><a href="#steps">Бонусы</a></li>
+                    <li><a href="#cities">Где найти</a></li>
+                    <li><a href="#signUp">Подписаться</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-burger"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Выпей чашешку чая или кофе.<br> Зарядись бодростью на весь день!</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#">Выпить чашечку!</a>
+            <a class="btn btn-ghost js--scroll-to-features" href="#">Подробнее о нас</a>
+        </div>
+    </header>
+    
+    <main>
+<!-- FEATURE SECTION -->
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                <h2>Хорошее качество &mdash; доступная цена</h2>
+                <p class="long-copy">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quis dolore voluptas nemo distinctio numquam atque deleniti omnis quas molestiae beatae, inventore nam? Neque, illum.
+                </p>
+
+                <div class="row js--wp-1">
+                    <div class="col span-1-of-4 box">
+                        <i class="ion-leaf icon-big"></i>
+                        <h3>Свежий чай</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero perferendis minima nemo minus aspernatur enim quasi repellendus necessitatibus delectus, reiciendis illum nostrum doloribus, deserunt inventore.
+                        </p>
+                    </div>
+                    <div class="col span-1-of-4 box">
+                        <i class="ion-android-car icon-big"></i>
+                        <h3>Быстрая доставка</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, inventore et quo, expedita atque iusto pariatur repellat minima nesciunt consectetur dolorum nostrum itaque tempore praesentium?
+                        </p>
+                    </div>
+                    <div class="col span-1-of-4 box">
+                        <i class="ion-coffee icon-big"></i>
+                        <h3>Огромный выбор</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis suscipit architecto, culpa eligendi magni sit molestiae cum temporibus unde ab blanditiis eveniet cumque possimus excepturi!
+                        </p>
+                    </div>
+                    <div class="col span-1-of-4 box">
+                        <i class="ion-flame icon-big"></i>
+                        <h3>Акции и подарки</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eum ex fugiat inventore voluptas, doloribus voluptatum vitae amet mollitia eos non cum saepe? Debitis, architecto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- IMAGES SECTION -->
+        <section class="meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
+                </figure>
+            </li>
+        </ul>
+        </section>
+<!-- HOW IT'S WORK SECTION -->
+        <section class="section-steps" id="steps">
+            <div class="row">
+                <h2>Подписывайся на нас и получай лучшие предложения</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img class="app-screen js--wp-2" src="resources/img/app-iPhone.png" alt="Viggie-food app on iPhone">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Скачай наши приложения в AppStore и GooglePlay!</p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Регистрируйся и делай заказы. Получай бонусы и скидки!</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Получай только лучший чай и кофе. Наслаждайся вкусом!</p>
+                    </div>
+
+                    <a href="#" class="btn-app"><img src="resources/img/Apple-App-Store.png" alt="App Store Button"></a>
+                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
+                </div>
+            </div>
+        </section>
+<!-- CITIES SECTION -->
+        <section class="section-cities" id="cities">
+            <div class="row">
+                <h2>Доставка в течение дня доступна в этих городах:</h2>
+            </div>
+            <div class="row js--wp-3">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/moscow.jpg" alt="Moscow">
+                    <h3>Москва</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person"></i>
+                        <p>1600+ клиентов</p>
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star"></i>
+                        <p>6 точек продажи</p>
+                    </div> 
+                    <div class="city-feature">
+                        <i class="ion-social-twitter"></i>
+                        <a href="#">@coffestock_m</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/piter.jpg" alt="St. Petersburg">
+                    <h3>Санкт-Петербург</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person"></i>
+                        <p>3700+ клиентов</p>
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star"></i>
+                        <p>5 точек продажи</p>
+                    </div> 
+                    <div class="city-feature">
+                        <i class="ion-social-twitter"></i>
+                        <a href="#">@coffestock_m</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/krasnodar.jpg" alt="Krasnodar">
+                    <h3>Краснодар</h3>
+
+                    <div class="city-feature">
+                        <i class="ion-ios-person"></i>
+                        <p>2300+ клиентов</p>
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star"></i>
+                        <p>11 Точек продажи</p>
+                    </div> 
+                    <div class="city-feature">
+                        <i class="ion-social-twitter"></i>
+                        <a href="#">@coffestock_p</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/rostov.jpg" alt="Rostow-on-Don">
+                    <h3>Ростов-на-Дону</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person"></i>
+                        <p>1200+ клиентов</p>
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star"></i>
+                        <p>8 точек продажи</p>
+                    </div> 
+                    <div class="city-feature">
+                        <i class="ion-social-twitter"></i>
+                        <a href="#">@coffestock_m</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- RESPONSE SECTION -->
+        <section class="section-testimonials" >
+            <div class="row">
+                <h2>Наши клиенты всегда остаются довольными</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eligendi sapiente id itaque sint cum obcaecati aut quisquam illum ducimus.
+                        <cite>
+                            <img src="resources/img/customer-1.jpg" alt="Потапов Зигмунд">
+                            Потапов Зигмунд
+                        </cite>
+                </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minus nesciunt ratione cum mollitia corporis recusandae, alias dolore tenetur ad?
+                        <cite>
+                            <img src="resources/img/customer-2.jpg" alt="Комарова Федосья">
+                            Комарова Федосья
+                        </cite>
+                </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores distinctio vero quia. Nisi illo reiciendis iure, excepturi quam dolorem dolorum!
+                        <cite>
+                            <img src="resources/img/customer-3.jpg" alt="Фокин Ян">
+                            Фокин Ян
+                        </cite>
+                </blockquote>
+                </div>
+            </div>
+        </section>
+<!-- PLANS SECTION -->
+        <section class="section-plans js--section-plans" id="signUp">
+            <div class="row">
+                <h2>
+                    Стань нашим премиальным клиентом
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Премиальный</h3>
+                            <p class="plan-price">5000 &#8381 <span>/ месяц</span></p>
+                            <p class="plan-price-meal">Всего 100 рублей за кружку</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Каждый день кофе в подарок
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Скидки в магазинах и кафе до 30%
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Доступ ко всем сортам
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Бесплатная доставка
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Стать участником</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Продвинутый</h3>
+                            <p class="plan-price">2500 &#8381 <span>/ месяц</span></p>
+                            <p class="plan-price-meal">Всего 150 рублей за кружку</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>1кг чая или кофе в подарок
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Скидки в магазинах и кафе до 20%
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Доступ ко всем сортам
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Бесплатная доставка
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Стать участником</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Пробный</h3>
+                            <p class="plan-price">150 &#8381 <span>/ кружка</span></p>
+                            <p class="plan-price-meal">&nbsp;</p> <!-- Добавляет пробел и решает проблему выравнивания -->
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Огромный выбор чая и кофе
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Скидки в магазинах до 10%
+                                </li>
+                                <li>
+                                    <i class="ion-ios-close-empty icon-small"></i>
+                                </li>
+                                <li>
+                                    <i class="ion-ios-checkmark-empty icon-small"></i>Нет доставки
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Стать участником</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- FORM SECTION -->
+
+        <div class="map-box">
+
+            <div class="map"></div>
+            
+                <div class="form-box" id="form">
+
+                <div class="row">
+                    <h2>Мы с вами свяжемся</h2>
+                </div>
+
+                <div class="row">
+                    <form method="post" action="" class="contact-form">
+
+                        <div class="row">
+
+                            <div class="col span-1-of-3">
+                                <label for="name">Имя</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="Ваш email" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">Как вы о нас узнали?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="friends" selected>Друзья</option>
+                                    <option value="internet">Через интернет</option>
+                                    <option value="ad">Увидел рекламу</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Новинки?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" name="news" id="news" checked> Да, пожалуйста.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Хотите нам что-то сказать?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" id="" cols="30" rows="5" placeholder="Ваше сообщение"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Отправить!">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+<!-- FOOTER -->
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Новинки</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2020 by Кофесклад. Все права защищены.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Подключение библиотеки jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Waypoints -->
+
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+
+    <!-- Определение новых свойств HTML5 для браузеров  -->
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+
+    <!-- Emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8. -->
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+
+    <!-- Gmaps   -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0t7voaGTqvsbCQ12MUWEfAquxMkLNBXc"></script>
+    <script src="vendors/js/gmaps.js"></script>
+
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
