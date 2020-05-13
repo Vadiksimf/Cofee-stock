@@ -172,6 +172,19 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    animation: moveFromUp 1.5s;
+}
+
+@keyframes moveFromUp {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    };
+
+    100% {
+        transform: translate();
+        opacity: 1;
+    };
 }
 
 h2 {
